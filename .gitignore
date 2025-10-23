@@ -1,2 +1,17 @@
-/grafiktest.py
-/test.py
+# Sanal Ortamlar
+venv/
+.venv/
+env/
+
+# Python Derleme Çıktıları
+__pycache__/
+*.pyc
+*.pyo
+
+# Paketleme ve Dağıtım
+dist/
+build/
+*.egg-info/
+
+# Geliştirme Ortamı (VS Code)
+.vscode/
