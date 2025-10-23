@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+turkish_python.egg-info/PKG-INFO
+turkish_python.egg-info/SOURCES.txt
+turkish_python.egg-info/dependency_links.txt
+turkish_python.egg-info/top_level.txt

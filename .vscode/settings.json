@@ -1,0 +1,10 @@
+{
+    "python.analysis.extraPaths": [
+        "."
+    ],
+    "python.terminal.activateEnvironment": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none",
+        "reportMissingImports": "none"
+    }
+}
