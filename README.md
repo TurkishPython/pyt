@@ -1,19 +1,32 @@
-# python-turkish-translation: Türkçe Python Fonksiyonları Paketi (v0.9.1)
+# python-turkish: Türkçe Python Geliştirme Paketi (v1.0.1)
 
-`python-turkish-translation`, Python'ın en çok kullanılan yerleşik fonksiyonlarını ve temel modül komutlarını (Girdi/Çıktı, Veri Tipleri, Turtle Grafikleri) Türkçeleştirmeyi amaçlayan bir eğitim ve geliştirme paketidir. Amacımız, Python öğrenimini Türkçe konuşan kullanıcılar için daha akıcı ve eğlenceli hale getirmektir.
+## README.md Güncellemesi
 
-## Özellikler (Features)
+`python-turkish`, Python öğrenimini ve kullanımını Türkçe konuşanlar için sadeleştirmeyi amaçlayan, temel fonksiyonları ve sık kullanılan modül komutlarını Türkçeleştiren **kararlı** bir pakettir.
 
-- **Temel I/O:** `yazdır()` (`print`), `girdi_al()` (`input`)
-- **Veri İşleme:** `uzunluk_bul()` (`len`), `tür_bul()` (`type`), `değer_dönüştür()` (`int`/`float`)
-- **Grafik (Turtle):** Tüm temel çizim komutlarının Türkçe karşılıkları ve Türkçe renk desteği (Örn: `renk_ayarla("kırmızı")`, `ileri_git(100)`). Türkçe pembe tonları desteği (`açıkpembe`, `derinpembe` vb.) eklenmiştir.
+Proje, kullanıcıları standartlardan saptırmak yerine, yabancı dil bariyerini aşarak **kavramları ana dilde öğrenme** sürecini hızlandıran bir **başlangıç köprüsü** görevi görür.
+
+### 🌟 V1.0.1 ile Öne Çıkan Ana Özellikler
+
+Bu sürümde, paketin işlevselliği temel komutların ötesine taşınmış ve gerçek dünya uygulamaları için OS (İşletim Sistemi) entegrasyonu eklenmiştir.
+
+| Kategori | Türkçe Karşılığı | Orijinal Komut |
+| :---: | :---: | :---: |
+| **Temel I/O** | `yazdır()`, `girdi_al()` | `print()`, `input()` |
+| **Veri Kontrol** | `uzunluk_bul()`, `tür_bul()` | `len()`, `type()` |
+| **Mantıksal** | `hepsi_doğru_mu()`, `herhangi_doğru_mu()` | `all()`, `any()` |
+| **Veri Dönüşüm** | `değer_dönüştür()` | `int()`, `float()`, `str()` |
+| **OS/Dosya İşl.** | `dizin_oluştur()`, `dosya_sil()` | `os.makedirs()`, `os.remove()` |
+| **OS/Dizin** | `mevcut_dizin()`, `dizin_listele()` | `os.getcwd()`, `os.listdir()` |
+| **Grafik (Turtle)** | `ileri_git()`, `çember_çiz()`, `renk_ayarla()` | `forward()`, `circle()`, `color()` |
 
 ---
 
 ## 🇹🇷 Kurulum ve Kullanım
 
+### Kurulum
+
 Paketi kurmak için `pip` kullanabilirsiniz:
 
 ```bash
-pip install python-turkish-translation
-
+pip install python-turkish

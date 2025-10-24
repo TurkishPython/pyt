@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "turkish-python" 
-version = "0.9.1" # <-- GÜNCEL VERSİYON
+name = "python-turkish" 
+version = "1.0.1" # <-- GÜNCEL VERSİYON
 authors = [
   { name="taha1901" }
 ]
@@ -12,7 +12,7 @@ description = "Python'ın bazı yerleşik fonksiyonlarını Türkçeleştiren k�
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.8"
-keywords = ["turkce", "python", "cevirmen", "pyt", "turtle", "grafik", "renk"]
+keywords = ["turkce", "python", "cevirmen", "pyt", "turtle", "grafik", "renk", "all", "any"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -20,10 +20,6 @@ classifiers = [
     "Development Status :: 3 - Alpha",
     "Topic :: Software Development :: Internationalization",
 ]
-
-[project.urls]
-Homepage = "https://github.com/ornek-kullanici/pyt"
-Issues = "https://github.com/ornek-kullanici/pyt/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
