@@ -4,24 +4,29 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "python-turkish" 
-version = "1.0.1" # <-- GÜNCEL VERSİYON
+version = "1.1.0" # <-- GÜNCEL V1.1.0
 authors = [
   { name="taha1901" }
 ]
-description = "Python'ın bazı yerleşik fonksiyonlarını Türkçeleştiren küçük bir paket."
+description = "Python'ın temel fonksiyonlarını Türkçeleştiren, hızlı ve eğitsel bir paket. V1.1.0 ile kısa komut isimleri eklendi."
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.8"
-keywords = ["turkce", "python", "cevirmen", "pyt", "turtle", "grafik", "renk", "all", "any"]
+keywords = ["turkce", "python", "cevirmen", "os", "dosya", "hızlı", "v1.1.0"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 5 - Production/Stable", 
     "Topic :: Software Development :: Internationalization",
+    "Topic :: Education",
 ]
+
+[project.urls]
+Homepage = "https://github.com/TurkishPython/pyt" 
+Issues = "https://github.com/TurkishPython/pyt/issues" 
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["pyt"] 
+include = ["python_turkish"] 
 exclude = ["main.py", "test_*.py"]
